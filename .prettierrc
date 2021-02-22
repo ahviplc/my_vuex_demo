@@ -1,0 +1,5 @@
+// 可配合eslint一起使用
+{
+"semi":false, // 句末加分号
+"singleQuole":true // 用单引号
+}
