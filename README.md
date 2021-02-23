@@ -5,6 +5,10 @@ vuex:计数器案例 用案例来快速学习vuex.
 
 开始 | Vuex
 https://vuex.vuejs.org/zh/guide/
+
+ahviplc/my_vuex_demo
+https://github.com/ahviplc/my_vuex_demo
+https://github.com/ahviplc/my_vuex_demo.git
 ```
 
 ```markdown
