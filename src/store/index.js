@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
+// 引入todos的 state，mutations，actions，getter
+// 引入分离出去的module 添加到 modules
+import todos from './mod-todos'
+
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -79,5 +83,7 @@ export default new Vuex.Store({
       return '当前最新的数量是【' + state.count + '】'
     }
   },
-  modules: {}
+  modules: {
+    todos: todos // 将todos加入 modules
+  }
 })

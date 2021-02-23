@@ -4,26 +4,19 @@
       <router-link to="/">Home</router-link>
       |
       <router-link to="/about">About</router-link>
+      |
+      <router-link to="/counter">Counter</router-link>
+      |
+      <router-link to="/todos">Todos</router-link>
     </div>
-    <p>---------------------------------------</p>
-    <my-addition></my-addition>
-    <p>---------------------------------------</p>
-    <my-subtration></my-subtration>
-    <p>---------------------------------------</p>
     <router-view/>
   </div>
 </template>
 
 <script>
-import Addition from './components/Addition'
-import Subtration from './components/Subtration'
-
 export default {
   name: 'App',
-  components: {
-    'my-addition': Addition,
-    'my-subtration': Subtration
-  },
+  components: {},
   data () {
     return {
       msg: 'this is msg...'
