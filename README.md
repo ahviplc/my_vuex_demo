@@ -45,6 +45,10 @@ https://blog.csdn.net/weixin_41722928/article/details/113847350
 > 配置【lintOnSave: true, // 为false的话就是关闭ESLINT校验】-也可开启-在idea中配置保存的时候自动执行 eslint  --fix 一下
 > 这样IDEA不关闭ESLINT校验以及VUE页面提示也可,也能直接写代码 保存自动ESlint格式化 运行.
 
+```markdown
+其他vue项目 要是想配置此自动化ESlint,可以参考此项目配置ESlint.
+```
+
 ## Project setup
 ```
 npm install
